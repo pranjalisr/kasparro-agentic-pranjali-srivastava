@@ -1,0 +1,39 @@
+[00:00:02.938] Server  LOG     
+[00:00:02.938] Server  LOG        We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
+[00:00:02.938] Server  LOG        The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
+
+[00:00:02.938] Server  LOG        	- include was updated to add '.next/dev/types/**/*.ts'
+[00:00:02.938] Server  LOG     
+[00:00:02.938] Server  LOG        The following mandatory changes were made to your tsconfig.json:
+
+[00:00:02.938] Server  LOG        	- jsx was set to react-jsx (next.js uses the React automatic runtime)
+[00:00:02.938] Server  LOG     
+[00:00:03.036] Server  LOG      ✓ Ready in 2.8s
+[00:00:09.317] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:09.450] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:09.450] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:09.450] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765313286582}
+[00:00:09.498] Server  LOG     [Orchestrator] Registered agent: FAQAgent
+[00:00:09.498] Server  LOG     [Orchestrator] Registered agent: ProductPageAgent
+[00:00:09.498] Server  LOG     [Orchestrator] Registered agent: ComparisonAgent
+[00:00:09.498] Server  LOG     [Orchestrator] Execution order: faq -> product-page -> comparison
+[00:00:09.498] Server  LOG     [Orchestrator] Starting orchestration with product: GlowBoost Vitamin C Serum
+
+[00:00:09.499] Server  LOG     [Orchestrator] Executing: FAQAgent
+[00:00:09.499] Server  LOG     [FAQAgent] Starting FAQ generation...
+[00:00:09.499] Server  LOG     [FAQAgent] Generated 15 questions
+[00:00:09.499] Server  LOG     [FAQAgent] FAQ page generated successfully
+[00:00:09.499] Server  LOG     [Orchestrator] ✓ FAQAgent completed
+
+[00:00:09.499] Server  LOG     [Orchestrator] Executing: ProductPageAgent
+[00:00:09.499] Server  LOG     [ProductPageAgent] Starting product page generation...
+[00:00:09.500] Server  LOG     [ProductPageAgent] Composed 7 content blocks
+[00:00:09.500] Server  LOG     [ProductPageAgent] Product page generated successfully
+[00:00:09.500] Server  LOG     [Orchestrator] ✓ ProductPageAgent completed
+
+[00:00:09.500] Server  LOG     [Orchestrator] Executing: ComparisonAgent
+[00:00:09.501] Server  LOG     [ComparisonAgent] Starting comparison page generation...
+[00:00:09.501] Server  LOG     [ComparisonAgent] Comparing GlowBoost Vitamin C Serum with RadiantGlow Serum Pro
+[00:00:09.501] Server  LOG     [ComparisonAgent] Comparison page generated successfully
+[00:00:09.501] Server  LOG     [Orchestrator] ✓ ComparisonAgent completed
+
